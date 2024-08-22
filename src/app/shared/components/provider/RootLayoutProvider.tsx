@@ -1,3 +1,5 @@
+'use client';
+
 import TanstackQueryProvider from '@/app/shared/components/provider/TanstackQueryProvider';
 import { ReactNode } from 'react';
 

@@ -20,8 +20,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <RootLayoutProvider>
-          <Header />
-          {children}
+          <div className="max-w-[600px] min-h-screen m-auto max-sm:w-[90%]">
+            <Header />
+            {children}
+          </div>
         </RootLayoutProvider>
       </body>
     </html>

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@tanstack/react-query": "^5.52.0",
+    "hamburger-react": "^2.5.1",
     "next": "14.2.6",
     "react": "^18",
     "react-dom": "^18"
